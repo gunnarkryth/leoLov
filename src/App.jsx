@@ -1,6 +1,7 @@
 import "./styles/App.scss";
 import { Header } from "./components/Header/Header";
 import { Nav } from "./components/Nav/Nav";
+import { Logo } from "./components/Logo/Logo";
 import { LandingPage } from "./components/LandingPage/LandingPage";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header>
         <Nav></Nav>
+        <Logo></Logo>
       </Header>
       <LandingPage></LandingPage>
     </>

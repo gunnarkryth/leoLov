@@ -3,6 +3,7 @@ import { Header } from "./components/Header/Header";
 import { Nav } from "./components/Nav/Nav";
 import { Logo } from "./components/Logo/Logo";
 import { LandingPage } from "./components/LandingPage/LandingPage";
+import { Cards } from "./components/Cards/Cards";
 
 function App() {
   return (
